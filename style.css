@@ -1,0 +1,49 @@
+body {
+  margin: 1;
+  background: url('../img/Фон.jpg');
+}
+
+.card {
+width: 400px;
+margin: 0 auto;
+padding: 20px;
+border: 1px solid #b41d1d;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(233, 228, 228, 0.5);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+}
+
+.card-foto {
+display: block;
+margin: 0 auto;
+width: 200px;
+height: 200px;
+border-radius: 70%;
+object-fit: cover;
+}
+
+.card-title {
+text-align: center;
+margin-top: 20px;
+margin-bottom: 0;
+}
+
+.card-text {
+text-align: center;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+.card-subtitle {
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+.card-list {
+margin-top: 0;
+margin-bottom: 10px;
+}
+
+.card-list a {
+color: #293ab9;
+}
